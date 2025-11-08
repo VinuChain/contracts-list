@@ -1,0 +1,6 @@
+{
+  "project": "wrapped-vc",
+  "name": "Wrapped VC",
+  "contract": "WrappedVC",
+  "tags": ["token", "erc20"]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "VinuRepublic",
+  "website": "https://vinurepublic.org",
+  "description": "VinuRepublic (VIR) token on VinuChain",
+  "token": {
+    "chainId": 207,
+    "address": "0x71B4E99547Ad8b307C1313284b4bAc64988C53BB",
+    "symbol": "VIR",
+    "name": "VinuRepublic",
+    "decimals": 18
+  }
+}

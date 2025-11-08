@@ -1,0 +1,12 @@
+{
+  "name": "Wrapped VC",
+  "website": "https://vinuchain.org",
+  "description": "Wrapped VC (WVC) - ERC20 wrapped version of the native VC token",
+  "token": {
+    "chainId": 207,
+    "address": "0xEd8c5530a0A086a12f57275728128a60DFf04230",
+    "symbol": "WVC",
+    "name": "Wrapped VC",
+    "decimals": 18
+  }
+}

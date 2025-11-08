@@ -1,0 +1,12 @@
+{
+  "name": "VINUHUB",
+  "website": "https://vinuhub.org",
+  "description": "VINUHUB (VIN) token on VinuChain",
+  "token": {
+    "chainId": 207,
+    "address": "0x6109835364EdA2c43CaA8981681e75782C13566C",
+    "symbol": "VIN",
+    "name": "VINUHUB",
+    "decimals": 18
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "project": "usdt-vinuchain",
+  "name": "USDT@VinuChain",
+  "contract": "USDT",
+  "tags": ["token", "erc20", "bridge"]
+}

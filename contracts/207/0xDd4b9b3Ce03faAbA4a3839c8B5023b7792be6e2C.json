@@ -1,0 +1,6 @@
+{
+  "project": "eth-vinuchain",
+  "name": "ETH@VinuChain",
+  "contract": "ETH",
+  "tags": ["token", "erc20", "bridge"]
+}
