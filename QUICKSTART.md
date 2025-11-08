@@ -6,7 +6,7 @@ This guide will help you get started with the VinuChain Token List repository.
 
 ### Viewing Contract Information
 
-1. Navigate to `contracts/26600/` to browse VinuChain mainnet contracts
+1. Navigate to `contracts/207/` to browse VinuChain mainnet contracts
 2. Each file is named by its contract address (EIP55 checksummed)
 3. Open any `.json` file to view contract details
 
@@ -58,8 +58,8 @@ cd contracts-list
 git checkout -b add-my-contract
 
 # 3. Create your contract file
-# contracts/26600/0xYourChecksummedAddress.json
-cat > contracts/26600/0xYourAddress.json << 'EOF'
+# contracts/207/0xYourChecksummedAddress.json
+cat > contracts/207/0xYourAddress.json << 'EOF'
 {
   "project": "your-project",
   "name": "Your Token",
@@ -92,7 +92,7 @@ cat > projects/your-project.json << 'EOF'
   "description": "Your project description",
   "security": "security@yourproject.com",
   "token": {
-    "chainId": 26600,
+    "chainId": 207,
     "address": "0xYourTokenAddress",
     "symbol": "SYMBOL",
     "name": "Token Name",
@@ -122,7 +122,7 @@ git push origin add-my-project
 
 ```javascript
 // Fetch all contracts for a specific chain
-const chainId = 26600;
+const chainId = 207;
 const response = await fetch(
   `https://raw.githubusercontent.com/VinuChain/contracts-list/main/contracts/${chainId}/`
 );
@@ -219,7 +219,7 @@ npm install
 npm run validate
 
 # Check specific JSON file
-cat contracts/26600/0xAddress.json | jq .
+cat contracts/207/0xAddress.json | jq .
 ```
 
 ### Address Not Checksummed

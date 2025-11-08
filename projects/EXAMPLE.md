@@ -26,7 +26,7 @@ Here's an example of what a project entry should look like:
   "contact": "contact@example.com",
   "security": "security@example.com",
   "token": {
-    "chainId": 26600,
+    "chainId": 207,
     "address": "0x1234567890123456789012345678901234567890",
     "symbol": "EXAMPLE",
     "name": "Example Token",
@@ -61,7 +61,7 @@ Here's an example of what a project entry should look like:
 
 If your project has a primary token, include:
 
-- `chainId`: VinuChain chain ID (26600 for mainnet)
+- `chainId`: VinuChain chain ID (207 for mainnet)
 - `address`: EIP55 checksummed token address
 - `symbol`: Token ticker symbol
 - `name`: Full token name

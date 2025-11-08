@@ -68,7 +68,7 @@ test('Example contract file validates against schema', () => {
   const schema = JSON.parse(fs.readFileSync(path.join(__dirname, '../schemas/contract.schema.json'), 'utf8'));
   const validate = ajv.compile(schema);
 
-  const contractPath = path.join(__dirname, '../contracts/26600/0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed.json');
+  const contractPath = path.join(__dirname, '../contracts/207/0x5aAeb6053F3E94C9b9A09f33669435E7Ef1BeAed.json');
   const contract = JSON.parse(fs.readFileSync(contractPath, 'utf8'));
 
   assert(validate(contract), `Contract should validate: ${JSON.stringify(validate.errors)}`);

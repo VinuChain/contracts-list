@@ -20,7 +20,7 @@ body:
     attributes:
       label: Chain ID
       description: VinuChain network chain ID
-      placeholder: "26600"
+      placeholder: "207"
     validations:
       required: true
 

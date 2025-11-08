@@ -35,7 +35,7 @@ Contract files are located at `contracts/CHAINID/ADDRESS.json` where:
 - `CHAINID` is the EIP155 chain identifier for VinuChain
 - `ADDRESS` is the EIP55 checksummed contract address
 
-Example (`contracts/26600/0x1234567890123456789012345678901234567890.json`):
+Example (`contracts/207/0x1234567890123456789012345678901234567890.json`):
 
 ```json
 {
@@ -97,7 +97,7 @@ Example (`projects/example-project.json`):
   "contact": "contact@example.com",
   "security": "security@example.com",
   "token": {
-    "chainId": 26600,
+    "chainId": 207,
     "address": "0x1234567890123456789012345678901234567890",
     "symbol": "EXAMPLE",
     "name": "Example Token",
@@ -167,7 +167,7 @@ To maintain quality and security:
 ## VinuChain Information
 
 - **Chain Name**: VinuChain
-- **Chain ID**: 26600 (Mainnet)
+- **Chain ID**: 207 (Mainnet)
 - **Native Token**: VINU
 - **Block Explorer**: [VinuScan](https://vinuscan.com)
 - **RPC Endpoint**: https://vinuchain-rpc.com

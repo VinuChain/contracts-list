@@ -56,7 +56,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - GitHub Actions workflow for automated validation
 - Comprehensive documentation (README, CONTRIBUTING, SECURITY)
 - Example contract and project files
-- Support for VinuChain mainnet (Chain ID: 26600)
+- Support for VinuChain mainnet (Chain ID: 207)
 
 ### Security
 - EIP-55 checksum validation for all addresses

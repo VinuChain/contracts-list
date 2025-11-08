@@ -52,7 +52,7 @@
         "chainId": {
           "type": "integer",
           "description": "EIP155 chain ID where the token is deployed",
-          "enum": [26600],
+          "enum": [207],
           "minimum": 1
         },
         "address": {

@@ -13,7 +13,7 @@ contracts-list/
 │   └── pull_request_template.md     # PR template
 │
 ├── contracts/                        # Contract entries by chain ID
-│   └── 26600/                       # VinuChain Mainnet (Chain ID: 26600)
+│   └── 207/                         # VinuChain Mainnet (Chain ID: 207)
 │       ├── .gitkeep                 # Keep directory in git
 │       └── EXAMPLE.md               # Example documentation
 │
@@ -68,7 +68,7 @@ contracts-list/
 
 ### contracts/CHAINID/
 Each contract is stored as a JSON file named by its EIP55 checksummed address:
-- `26600/` - VinuChain Mainnet
+- `207/` - VinuChain Mainnet
 - Format: `0xAddress.json`
 
 ### projects/

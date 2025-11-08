@@ -16,7 +16,7 @@ Please provide a clear and concise description of your changes.
 
 ## Contract/Project Details
 
-**Chain ID:** (e.g., 26600)
+**Chain ID:** (e.g., 207)
 
 **Contract Address(es):**
 -

@@ -15,7 +15,7 @@ Thank you for your interest in contributing to the VinuChain Token List! This gu
 
 ### Prerequisites
 
-- Your contract must be deployed on VinuChain (Chain ID: 26600)
+- Your contract must be deployed on VinuChain (Chain ID: 207)
 - Contract should be verified on the block explorer when possible
 - You should have authorization to represent the project
 - Prepare all required information (see below)
@@ -73,7 +73,7 @@ If you're comfortable with Git and JSON:
      "contact": "contact@yourproject.com",
      "security": "security@yourproject.com",
      "token": {
-       "chainId": 26600,
+       "chainId": 207,
        "address": "0xYourTokenAddress",
        "symbol": "SYMBOL",
        "name": "Token Name",
@@ -90,7 +90,7 @@ If you're comfortable with Git and JSON:
 
 4. **Add your contract files**
 
-   Create `contracts/26600/0xYourContractAddress.json`:
+   Create `contracts/207/0xYourContractAddress.json`:
    ```json
    {
      "project": "your-project-name",
@@ -190,7 +190,7 @@ Choose appropriate tags for your contract:
   "contact": "string/email (optional)",
   "security": "string/email (recommended)",
   "token": {
-    "chainId": 26600,
+    "chainId": 207,
     "address": "string (checksummed)",
     "symbol": "string",
     "name": "string",

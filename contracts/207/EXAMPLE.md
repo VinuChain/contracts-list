@@ -1,6 +1,6 @@
 # Example Contract Submissions
 
-This directory contains contract entries for VinuChain Mainnet (Chain ID: 26600).
+This directory contains contract entries for VinuChain Mainnet (Chain ID: 207).
 
 ## File Naming
 
