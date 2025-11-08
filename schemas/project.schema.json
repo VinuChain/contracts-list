@@ -29,12 +29,14 @@
     "contact": {
       "type": "string",
       "description": "General contact email",
-      "format": "email"
+      "format": "email",
+      "maxLength": 320
     },
     "security": {
       "type": "string",
       "description": "Security contact email for vulnerability disclosure",
-      "format": "email"
+      "format": "email",
+      "maxLength": 320
     },
     "token": {
       "type": "object",
@@ -76,8 +78,8 @@
         },
         "logoURI": {
           "type": "string",
-          "description": "HTTPS URL to token logo image (PNG/SVG)",
-          "pattern": "^https://.*\\.(png|svg|jpg|jpeg|webp)$",
+          "description": "HTTPS URL to token logo image (PNG/SVG, may include query params)",
+          "pattern": "^https://.*",
           "maxLength": 500
         }
       },
