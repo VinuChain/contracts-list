@@ -45,6 +45,7 @@
         "chainId",
         "address",
         "symbol",
+        "name",
         "decimals"
       ],
       "properties": {

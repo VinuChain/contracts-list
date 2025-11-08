@@ -47,22 +47,6 @@ jobs:
             done
           ' sh {} +
 
-      - name: Verify checksums
-        run: |
-          # Verify all contract addresses are EIP55 checksummed
-          # This is a basic check - in production, use web3.js or ethers.js
-          find contracts -name "*.json" -type f | while read file; do
-            address=$(basename "$file" .json)
-            if [[ ! "$address" =~ ^0x[a-fA-F0-9]{40}$ ]]; then
-              echo "❌ Invalid address format: $address"
-              exit 1
-            fi
-            # Check it's not all lowercase or all uppercase (simple checksum verification)
-            if [[ "$address" =~ ^0x[a-f0-9]{40}$ ]] || [[ "$address" =~ ^0x[A-F0-9]{40}$ ]]; then
-              echo "⚠️  Warning: Address may not be checksummed: $address"
-            fi
-          done
-
   comment:
     name: Comment on PR
     runs-on: ubuntu-latest

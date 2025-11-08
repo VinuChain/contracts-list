@@ -1,5 +1,10 @@
 # VinuChain Token List
 
+[![Validate](https://github.com/VinuChain/vinuchain-tokens/actions/workflows/validate.yml/badge.svg)](https://github.com/VinuChain/vinuchain-tokens/actions/workflows/validate.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![GitHub issues](https://img.shields.io/github/issues/VinuChain/vinuchain-tokens)](https://github.com/VinuChain/vinuchain-tokens/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/VinuChain/vinuchain-tokens)](https://github.com/VinuChain/vinuchain-tokens/pulls)
+
 A comprehensive registry of verified smart contracts and tokens deployed on VinuChain. This repository helps identify deployed contract instances and provides security contact information for responsible disclosure.
 
 ## Purpose
@@ -137,9 +142,9 @@ Use our GitHub issue template to submit a new contract or project. This will aut
 4. Ensure your JSON files validate against the schemas
 5. Submit a pull request
 
-### Option 3: Sourcify Integration
+### Option 3: Sourcify Verification (Future Feature)
 
-Add the `@custom:security-contact` NatSpec tag to your Solidity contracts:
+While automated Sourcify integration is planned for the future, you can prepare your contracts now by adding the `@custom:security-contact` NatSpec tag:
 
 ```solidity
 /// @custom:security-contact security@yourproject.com
@@ -148,7 +153,7 @@ contract YourContract {
 }
 ```
 
-Then verify your contract on [Sourcify](https://sourcify.dev/) for automatic inclusion in future imports.
+After verifying your contract on [Sourcify](https://sourcify.dev/), the security contact will be available for future automated imports. For now, please use Option 1 or 2 to submit your contract.
 
 ## Verification
 
@@ -174,12 +179,6 @@ To maintain quality and security:
 ```bash
 npm install
 npm run validate
-```
-
-### Add New Contract
-
-```bash
-npm run add-contract -- --chain 26600 --address 0x... --project example-project
 ```
 
 ## Security

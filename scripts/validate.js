@@ -31,6 +31,14 @@ let hasErrors = false;
 let validatedContracts = 0;
 let validatedProjects = 0;
 
+// Reserved project names that should not be used
+const RESERVED_NAMES = [
+  'main', 'master', 'test', 'admin', 'api', 'www', 'staging',
+  'production', 'dev', 'development', 'config', 'settings',
+  'public', 'private', 'internal', 'system', 'root', 'null',
+  'undefined', 'true', 'false', 'default'
+];
+
 /**
  * Check if address is properly EIP-55 checksummed
  * @param {string} address - The address to validate
@@ -191,6 +199,30 @@ function validateProjects() {
       console.error(`❌ Invalid project filename: ${filePath}`);
       console.error(`   Filename must be lowercase alphanumeric with hyphens`);
       console.error(`   Examples: "my-project", "token123", "defi-protocol"`);
+      hasErrors = true;
+      continue;
+    }
+
+    // Check project ID length
+    if (projectId.length < 3) {
+      console.error(`❌ Project ID too short: ${filePath}`);
+      console.error(`   Project ID must be at least 3 characters`);
+      hasErrors = true;
+      continue;
+    }
+
+    if (projectId.length > 100) {
+      console.error(`❌ Project ID too long: ${filePath}`);
+      console.error(`   Project ID must be 100 characters or less`);
+      hasErrors = true;
+      continue;
+    }
+
+    // Check for reserved names
+    if (RESERVED_NAMES.includes(projectId)) {
+      console.error(`❌ Reserved project name: ${filePath}`);
+      console.error(`   "${projectId}" is a reserved name and cannot be used`);
+      console.error(`   Please choose a different project name`);
       hasErrors = true;
       continue;
     }

@@ -41,8 +41,8 @@ For **Contracts**:
 
 This is the easiest method for adding your project:
 
-1. Go to [Issues](../../issues/new/choose)
-2. Select "Add New Token/Contract"
+1. Go to [Issues](https://github.com/VinuChain/vinuchain-tokens/issues/new/choose)
+2. Select "Add Contract" or "Add Project"
 3. Fill out the form with your project information
 4. Submit the issue
 5. Our team will review and create a PR on your behalf

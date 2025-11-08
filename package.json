@@ -2,6 +2,17 @@
   "name": "vinuchain-tokens",
   "version": "1.0.0",
   "description": "VinuChain Token List - A comprehensive registry of verified smart contracts and tokens deployed on VinuChain",
+  "main": "scripts/validate.js",
+  "engines": {
+    "node": ">=18.0.0",
+    "npm": ">=9.0.0"
+  },
+  "files": [
+    "contracts",
+    "projects",
+    "schemas",
+    "scripts"
+  ],
   "scripts": {
     "validate": "node scripts/validate.js",
     "test": "npm run validate"
