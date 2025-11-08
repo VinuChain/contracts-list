@@ -65,5 +65,5 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 - Maximum string length constraints to prevent DoS
 - Reserved words blocking for project names
 
-[Unreleased]: https://github.com/VinuChain/tokens-list/compare/v1.0.0...HEAD
-[1.0.0]: https://github.com/VinuChain/tokens-list/releases/tag/v1.0.0
+[Unreleased]: https://github.com/VinuChain/contracts-list/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/VinuChain/contracts-list/releases/tag/v1.0.0

@@ -1,5 +1,5 @@
 {
-  "name": "tokens-list",
+  "name": "contracts-list",
   "version": "1.0.0",
   "description": "VinuChain Token List - A comprehensive registry of verified smart contracts and tokens deployed on VinuChain",
   "main": "scripts/validate.js",
@@ -20,7 +20,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/VinuChain/tokens-list.git"
+    "url": "git+https://github.com/VinuChain/contracts-list.git"
   },
   "keywords": [
     "vinuchain",
@@ -32,9 +32,9 @@
   "author": "VinuChain Community",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/VinuChain/tokens-list/issues"
+    "url": "https://github.com/VinuChain/contracts-list/issues"
   },
-  "homepage": "https://github.com/VinuChain/tokens-list#readme",
+  "homepage": "https://github.com/VinuChain/contracts-list#readme",
   "devDependencies": {
     "ajv": "^8.17.1",
     "ajv-formats": "^3.0.1",

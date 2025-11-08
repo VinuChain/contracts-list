@@ -28,8 +28,8 @@ This guide will help you get started with the VinuChain Token List repository.
 
 ```bash
 # Clone the repository
-git clone https://github.com/VinuChain/tokens-list.git
-cd tokens-list
+git clone https://github.com/VinuChain/contracts-list.git
+cd contracts-list
 
 # Install dependencies
 npm install
@@ -51,8 +51,8 @@ npm run validate
 
 ```bash
 # 1. Fork and clone the repository
-git clone https://github.com/YOUR_USERNAME/tokens-list.git
-cd tokens-list
+git clone https://github.com/YOUR_USERNAME/contracts-list.git
+cd contracts-list
 
 # 2. Create a new branch
 git checkout -b add-my-contract
@@ -124,13 +124,13 @@ git push origin add-my-project
 // Fetch all contracts for a specific chain
 const chainId = 26600;
 const response = await fetch(
-  `https://raw.githubusercontent.com/VinuChain/tokens-list/main/contracts/${chainId}/`
+  `https://raw.githubusercontent.com/VinuChain/contracts-list/main/contracts/${chainId}/`
 );
 
 // Parse contract data
 const contractAddress = '0xYourContractAddress';
 const contractData = await fetch(
-  `https://raw.githubusercontent.com/VinuChain/tokens-list/main/contracts/${chainId}/${contractAddress}.json`
+  `https://raw.githubusercontent.com/VinuChain/contracts-list/main/contracts/${chainId}/${contractAddress}.json`
 ).then(res => res.json());
 
 console.log(contractData.name); // Display name
@@ -142,7 +142,7 @@ console.log(contractData.tags); // Contract tags
 ```javascript
 const projectId = 'your-project';
 const projectData = await fetch(
-  `https://raw.githubusercontent.com/VinuChain/tokens-list/main/projects/${projectId}.json`
+  `https://raw.githubusercontent.com/VinuChain/contracts-list/main/projects/${projectId}.json`
 ).then(res => res.json());
 
 console.log(projectData.name);     // Project name

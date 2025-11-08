@@ -133,7 +133,7 @@ test('Validation script executes successfully', () => {
 // Test 6: Package.json is valid
 test('Package.json has all required fields', () => {
   const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json'), 'utf8'));
-  assert(pkg.name === 'tokens-list', 'Package name should be tokens-list');
+  assert(pkg.name === 'contracts-list', 'Package name should be contracts-list');
   assert(pkg.version, 'Package should have version');
   assert(pkg.scripts && pkg.scripts.validate, 'Package should have validate script');
   assert(pkg.engines && pkg.engines.node, 'Package should specify Node.js version');

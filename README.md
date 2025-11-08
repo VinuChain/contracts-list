@@ -1,9 +1,9 @@
 # VinuChain Token List
 
-[![Validate](https://github.com/VinuChain/tokens-list/actions/workflows/validate.yml/badge.svg)](https://github.com/VinuChain/tokens-list/actions/workflows/validate.yml)
+[![Validate](https://github.com/VinuChain/contracts-list/actions/workflows/validate.yml/badge.svg)](https://github.com/VinuChain/contracts-list/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![GitHub issues](https://img.shields.io/github/issues/VinuChain/tokens-list)](https://github.com/VinuChain/tokens-list/issues)
-[![GitHub pull requests](https://img.shields.io/github/issues-pr/VinuChain/tokens-list)](https://github.com/VinuChain/tokens-list/pulls)
+[![GitHub issues](https://img.shields.io/github/issues/VinuChain/contracts-list)](https://github.com/VinuChain/contracts-list/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/VinuChain/contracts-list)](https://github.com/VinuChain/contracts-list/pulls)
 
 A comprehensive registry of verified smart contracts and tokens deployed on VinuChain. This repository helps identify deployed contract instances and provides security contact information for responsible disclosure.
 
@@ -17,7 +17,7 @@ This repository serves two primary functions:
 ## Repository Structure
 
 ```
-tokens-list/
+contracts-list/
 ├── contracts/          # Contract entries organized by chain ID
 │   └── CHAINID/       # EIP155 chain identifier
 │       └── ADDRESS.json  # EIP55 checksummed contract address

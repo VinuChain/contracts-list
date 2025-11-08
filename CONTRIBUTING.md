@@ -41,7 +41,7 @@ For **Contracts**:
 
 This is the easiest method for adding your project:
 
-1. Go to [Issues](https://github.com/VinuChain/tokens-list/issues/new/choose)
+1. Go to [Issues](https://github.com/VinuChain/contracts-list/issues/new/choose)
 2. Select "Add Contract" or "Add Project"
 3. Fill out the form with your project information
 4. Submit the issue
@@ -53,8 +53,8 @@ If you're comfortable with Git and JSON:
 
 1. **Fork the repository**
    ```bash
-   git clone https://github.com/VinuChain/tokens-list.git
-   cd tokens-list
+   git clone https://github.com/VinuChain/contracts-list.git
+   cd contracts-list
    ```
 
 2. **Create a new branch**
