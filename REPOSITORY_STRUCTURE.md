@@ -1,7 +1,7 @@
 # VinuChain Token List - Repository Structure
 
 ```
-vinuchain-tokens/
+tokens-list/
 │
 ├── .github/                          # GitHub configuration
 │   ├── ISSUE_TEMPLATE/              # Issue templates for submissions
@@ -79,7 +79,7 @@ Each project is stored as a JSON file with a lowercase, hyphenated identifier:
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/VinuChain/vinuchain-tokens.git
+   git clone https://github.com/VinuChain/tokens-list.git
    ```
 
 2. **Install dependencies**
@@ -111,9 +111,9 @@ Each project is stored as a JSON file with a lowercase, hyphenated identifier:
 
 ## Links
 
-- Repository: https://github.com/VinuChain/vinuchain-tokens
-- Issues: https://github.com/VinuChain/vinuchain-tokens/issues
-- Discussions: https://github.com/VinuChain/vinuchain-tokens/discussions
+- Repository: https://github.com/VinuChain/tokens-list
+- Issues: https://github.com/VinuChain/tokens-list/issues
+- Discussions: https://github.com/VinuChain/tokens-list/discussions
 - VinuChain: https://vinuchain.org
 
 ---

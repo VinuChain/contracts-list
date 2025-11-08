@@ -38,7 +38,7 @@ function assert(condition, message) {
   }
 }
 
-console.log('>ê Running VinuChain Token List Tests\n');
+console.log('>ï¿½ Running VinuChain Token List Tests\n');
 
 // Test 1: Schemas exist and are valid JSON
 test('Contract schema file exists and is valid JSON', () => {
@@ -133,7 +133,7 @@ test('Validation script executes successfully', () => {
 // Test 6: Package.json is valid
 test('Package.json has all required fields', () => {
   const pkg = JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json'), 'utf8'));
-  assert(pkg.name === 'vinuchain-tokens', 'Package name should be vinuchain-tokens');
+  assert(pkg.name === 'tokens-list', 'Package name should be tokens-list');
   assert(pkg.version, 'Package should have version');
   assert(pkg.scripts && pkg.scripts.validate, 'Package should have validate script');
   assert(pkg.engines && pkg.engines.node, 'Package should specify Node.js version');
