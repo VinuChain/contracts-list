@@ -280,13 +280,13 @@ The more information you provide, the more useful your listing:
 
 ## Common Mistakes to Avoid
 
-- L Non-checksummed addresses
-- L Invalid JSON format
-- L Missing required fields
-- L Broken links
-- L Incorrect chain ID
-- L Duplicate entries
-- L Unauthorized submissions
+- Non-checksummed addresses
+- Invalid JSON format
+- Missing required fields
+- Broken links
+- Incorrect chain ID
+- Duplicate entries
+- Unauthorized submissions
 
 ## Getting Help
 

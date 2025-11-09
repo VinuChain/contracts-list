@@ -1,5 +1,5 @@
 name: Contract Submission
-description: Submit a new contract to the VinuChain Token List
+description: Submit a new contract to the VinuChain Contracts List
 title: "[Contract] "
 labels: ["submission", "contract"]
 body:
@@ -8,7 +8,7 @@ body:
       value: |
         ## Submit a Contract
 
-        Use this form to submit a new contract to the VinuChain Token List.
+        Use this form to submit a new contract to the VinuChain Contracts List.
 
         **Please ensure:**
         - You are authorized to submit this contract information

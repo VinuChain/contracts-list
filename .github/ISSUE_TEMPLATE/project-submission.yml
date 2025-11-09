@@ -1,5 +1,5 @@
 name: Project Submission
-description: Submit a new project to the VinuChain Token List
+description: Submit a new project to the VinuChain Contracts List
 title: "[Project] "
 labels: ["submission", "project"]
 body:
@@ -8,7 +8,7 @@ body:
       value: |
         ## Submit a Project
 
-        Use this form to submit a new project to the VinuChain Token List.
+        Use this form to submit a new project to the VinuChain Contracts List.
 
         **Please ensure:**
         - You represent the project officially
