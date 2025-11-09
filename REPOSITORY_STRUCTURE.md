@@ -1,4 +1,4 @@
-# VinuChain Token List - Repository Structure
+# VinuChain Contracts List - Repository Structure
 
 ```
 contracts-list/

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Validation script for VinuChain Token List
+ * Validation script for VinuChain Contracts List
  * Validates all contract and project JSON files against their schemas
  */
 
@@ -335,7 +335,7 @@ function validateProjectReferences() {
 }
 
 // Run all validations
-console.log('🚀 VinuChain Token List Validation\n');
+console.log('🚀 VinuChain Contracts List Validation\n');
 validateContracts();
 validateProjects();
 validateProjectReferences();

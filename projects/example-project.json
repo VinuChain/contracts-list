@@ -1,7 +1,7 @@
 {
   "name": "Example Project",
   "website": "https://example-project.com",
-  "description": "An example DeFi protocol on VinuChain demonstrating the token list format",
+  "description": "An example DeFi protocol on VinuChain demonstrating the contracts list format",
   "contact": "contact@example-project.com",
   "security": "security@example-project.com",
   "token": {

@@ -1,6 +1,6 @@
-# Contributing to VinuChain Token List
+# Contributing to VinuChain Contracts List
 
-Thank you for your interest in contributing to the VinuChain Token List! This guide will help you add your project or contract to the registry.
+Thank you for your interest in contributing to the VinuChain Contracts List! This guide will help you add your project or contract to the registry.
 
 ## Table of Contents
 

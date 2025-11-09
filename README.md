@@ -1,11 +1,11 @@
-# VinuChain Token List
+# VinuChain Contracts List
 
 [![Validate](https://github.com/VinuChain/contracts-list/actions/workflows/validate.yml/badge.svg)](https://github.com/VinuChain/contracts-list/actions/workflows/validate.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/VinuChain/contracts-list)](https://github.com/VinuChain/contracts-list/issues)
 [![GitHub pull requests](https://img.shields.io/github/issues-pr/VinuChain/contracts-list)](https://github.com/VinuChain/contracts-list/pulls)
 
-A comprehensive registry of verified smart contracts and tokens deployed on VinuChain. This repository helps identify deployed contract instances and provides security contact information for responsible disclosure.
+A comprehensive registry of verified smart contracts deployed on VinuChain. This repository helps identify deployed contract instances and provides security contact information for responsible disclosure.
 
 ## Purpose
 
@@ -169,8 +169,8 @@ To maintain quality and security:
 - **Chain Name**: VinuChain
 - **Chain ID**: 207 (Mainnet)
 - **Native Token**: VC
-- **Block Explorer**: [VinuScan](https://vinuscan.com)
-- **RPC Endpoint**: https://rpc.vinuchain.org
+- **Block Explorer**: [VinuExplorer](https://VinuExplorer.org)
+- **RPC Endpoint**: https://rpc.vinuchain.org/
 
 ## Scripts
 
@@ -192,7 +192,7 @@ All security vulnerabilities will be promptly addressed.
 
 ## Disclaimer
 
-This token list is maintained by volunteers in the VinuChain community. While we strive for accuracy, the information may not always be up to date. Always verify token information independently before making any transactions.
+This contracts list is maintained by volunteers in the VinuChain community. While we strive for accuracy, the information may not always be up to date. Always verify contract information independently before making any transactions.
 
 **Use at your own risk.** The maintainers of this repository are not responsible for any losses or damages resulting from the use of this information.
 

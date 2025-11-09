@@ -1,6 +1,6 @@
 # Quick Start Guide
 
-This guide will help you get started with the VinuChain Token List repository.
+This guide will help you get started with the VinuChain Contracts List repository.
 
 ## For Users
 

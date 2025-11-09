@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 /**
- * Test suite for VinuChain Token List validation
+ * Test suite for VinuChain Contracts List validation
  *
  * This is a simple test suite that validates the validation script works correctly.
  * It tests schema validation, checksum validation, and file format validation.
@@ -38,7 +38,7 @@ function assert(condition, message) {
   }
 }
 
-console.log('>� Running VinuChain Token List Tests\n');
+console.log('🧪 Running VinuChain Contracts List Tests\n');
 
 // Test 1: Schemas exist and are valid JSON
 test('Contract schema file exists and is valid JSON', () => {
