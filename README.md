@@ -169,7 +169,7 @@ To maintain quality and security:
 - **Chain Name**: VinuChain
 - **Chain ID**: 207 (Mainnet)
 - **Native Token**: VC
-- **Block Explorer**: [VinuExplorer](https://VinuExplorer.org)
+- **Block Explorer**: [VinuExplorer](https://vinuexplorer.org/)
 - **RPC Endpoint**: https://rpc.vinuchain.org/
 
 ## Scripts

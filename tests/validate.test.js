@@ -20,10 +20,10 @@ let testsFailed = 0;
 function test(name, fn) {
   try {
     fn();
-    console.log(` ${name}`);
+    console.log(`✅ ${name}`);
     testsPassed++;
   } catch (error) {
-    console.error(`L ${name}`);
+    console.error(`❌ ${name}`);
     console.error(`   ${error.message}`);
     testsFailed++;
   }
@@ -203,9 +203,9 @@ console.log(`Tests Failed: ${testsFailed}`);
 console.log(`${'='.repeat(50)}`);
 
 if (testsFailed > 0) {
-  console.log('\nL Some tests failed');
+  console.log('\n❌ Some tests failed');
   process.exit(1);
 } else {
-  console.log('\n( All tests passed!');
+  console.log('\n✅ All tests passed!');
   process.exit(0);
 }

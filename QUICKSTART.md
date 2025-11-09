@@ -116,7 +116,7 @@ git push origin add-my-project
 
 ## For Developers
 
-### Using the Token List in Your App
+### Using the Contracts List in Your App
 
 #### JavaScript/TypeScript
 
